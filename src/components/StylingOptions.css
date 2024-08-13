@@ -1,0 +1,280 @@
+
+  .styling-options {
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+  }
+  
+  .styling-options h2 {
+    font-size: 2.5em;
+    color: #6a11cb;
+    margin-bottom: 20px;
+  }
+  
+  .stylings-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .styling-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .styling-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .styling-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .styling-card p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .booking-button {
+    padding: 12px 20px;
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .booking-button:hover {
+    background-color: #2575fc;
+    transform: translateY(-2px);
+  }
+  
+  /*  */
+  /* StylingOptions.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+.slide-in {
+  animation: slideIn 1s ease-out;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+.styling-options {
+  padding: 40px 20px;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+.styling-options h2 {
+  font-size: 2.5em;
+  color: #6a11cb;
+  margin-bottom: 20px;
+}
+
+.stylings-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.styling-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  animation: fadeIn 1s ease-in;
+}
+
+.styling-card:hover {
+  transform: translateY(-5px);
+}
+
+.styling-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.styling-card h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.styling-card p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+}
+
+.styling-card .price {
+  font-size: 1.2em;
+  color: #6a11cb;
+  margin-top: 10px;
+}
+
+.styling-card .rating {
+  font-size: 1em;
+  color: #ff9800;
+  margin-top: 5px;
+}
+
+.booking-button {
+  padding: 12px 20px;
+  background-color: #6a11cb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.booking-button:hover {
+  transform: scale(1.1);
+}
+
+/*  */
+.coloring-options {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.colorings-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.coloring-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.coloring-card:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.rating {
+  color: #ff9800;
+}
+
+.booking-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-button:hover {
+  background-color: #0056b3;
+}
+
+.slide-in {
+  animation: slide-in 0.5s ease-out;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
